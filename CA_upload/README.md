@@ -130,3 +130,8 @@ Deletes crime by ID.
 - Filter example
 ![FilterExample](screenshots/SeverityFilter.png)
 
+## Side notes
+
+- To draw a polygon, click the polygon beneath the minus icon and above the save icon!
+- To delete draw shapes (radius and polygons) press the bin button!
+
