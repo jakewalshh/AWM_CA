@@ -112,21 +112,21 @@ Deletes crime by ID.
 ## Screenshots of it working
 
 - Overview
-![OverviewImage](Overview.png)
+![OverviewImage](screenshots/Overview.png)
 
 - Polygon Working
-![Polygon](PolygonDisplay.png)
+![Polygon](screenshots/PolygonDisplay.png)
 
 - Radius Working
-![Radius](RadiusWorking.png)
+![Radius](screenshots/RadiusWorking.png)
 
 - Adding Crimes
-![addCrime1](AddingCrimept1.png)
-![addCrime2](AddingCrimept2.png)
+![addCrime1](screenshots/AddingCrimept1.png)
+![addCrime2](screenshots/AddingCrimept2.png)
 
 - Deleting Crimes
-![delCrime](CrimeDeleted.png)
+![delCrime](screenshots/CrimeDeleted.png)
 
 - Filter example
-![FilterExample](SeverityFilter.png)
+![FilterExample](screenshots/SeverityFilter.png)
 
