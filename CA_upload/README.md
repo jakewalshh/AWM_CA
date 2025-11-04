@@ -47,19 +47,19 @@ cd AWM_CA
 Before running the project, create or update your .env file at the project root with the necessary environment variables. These typically include:
 
 # Example .env values
-POSTGRES_DB=yourdatabasenamehere
-POSTGRES_USER=yourusernamehere
-POSTGRES_PASSWORD=yourpasswordhere
-DB_HOST=db
-DB_PORT=5432
-DJANGO_SECRET_KEY=dev-change-me
-DJANGO_DEBUG=True
-DJANGO_ALLOWED_HOSTS=*
-PGADMIN_EMAIL=admin@example.com
-PGADMIN_PASSWORD=yourpasswordhere
+- POSTGRES_DB=yourdatabasenamehere
+- POSTGRES_USER=yourusernamehere
+- POSTGRES_PASSWORD=yourpasswordhere
+- DB_HOST=db
+- DB_PORT=5432
+- DJANGO_SECRET_KEY=dev-change-me
+- DJANGO_DEBUG=True
+- DJANGO_ALLOWED_HOSTS=*
+- PGADMIN_EMAIL=admin@example.com
+- PGADMIN_PASSWORD=yourpasswordhere
 
 
-Make sure to replace placeholder values with your actual credentials. This file is usually excluded from version control for security.
+-Make sure to replace placeholder values with your actual credentials. This file is usually excluded from version control for security.
 
 3. Build and run with Docker:
 docker compose up --build
@@ -108,4 +108,25 @@ Deletes crime by ID.
 
 ---
 
+
+## Screenshots of it working
+
+- Overview
+![OverviewImage](Overview.png)
+
+- Polygon Working
+![Polygon](PolygonDisplay.png)
+
+- Radius Working
+![Radius](RadiusWorking.png)
+
+- Adding Crimes
+![addCrime1](AddingCrimept1.png)
+![addCrime2](AddingCrimept2.png)
+
+- Deleting Crimes
+![delCrime](CrimeDeleted.png)
+
+- Filter example
+![FilterExample](SeverityFilter.png)
 
